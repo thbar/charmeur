@@ -45,6 +45,7 @@ You can inject the authenticity token as follows (here in ERB):
 TODO: document manuel invocation
 TODO: document label customization
 TODO: document CSS customization
+TODO: make images root folder configurable (eg: to use /assets/ instead of images/)
 
 Alpha warning
 -------------
