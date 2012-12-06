@@ -30,6 +30,18 @@ Usage
 <script src="charmeur.js" defer async></script>
 ```
 
+### Rails authenticity_token support
+
+You can inject the authenticity token as follows (here in ERB):
+
+```html
+<script>
+  __CHARM = {
+    // ...
+    authenticity_token: <%= form_authenticity_token.to_json.html_safe %>
+  }
+</script>
+
 TODO: document manuel invocation
 TODO: document label customization
 TODO: document CSS customization

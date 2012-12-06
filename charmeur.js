@@ -216,6 +216,7 @@
       userdata('user_info');      
       userdata('customer_id');
       userdata('subject');
+      userdata('authenticity_token');
 
       data('location', location.href);
       data('user_agent', navigator.userAgent);
