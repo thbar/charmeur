@@ -65,6 +65,7 @@ You can inject the authenticity token as follows (here in ERB):
     authenticity_token: <%= form_authenticity_token.to_json.html_safe %>
   }
 </script>
+```
 
 Alpha warning
 -------------
